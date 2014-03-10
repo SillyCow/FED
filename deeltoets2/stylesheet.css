@@ -1,0 +1,91 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+/* h2 + p:hover {
+	box-shadow: inset .1em .1em .1em rgba(0,0,0,.0),
+				0 0 0 2px hsla(60,100%,50%,.6),
+				0 0 0 4px hsla(120,100%,50%,.6),
+				0 0 0 6px hsla(180,100%,50%,.6),
+				0 0 0 8px hsla(240,100%,50%,.6),
+				0 0 0 10px hsla(300,100%,50%,.6),
+				0 0 0 12px hsla(0,100%,50%,.6);
+}*/
+
+li:nth-of-type(1) {
+	line-height: 1;
+}
+
+li:nth-of-type(2) {
+	line-height: 2;
+}
+
+li:nth-of-type(3) {
+	line-height: 3;
+}
+
+li:nth-of-type(4) {
+	line-height: 4;
+}
+
+li:nth-of-type(5) {
+	line-height: 5;
+}
+
+li:nth-of-type(6) {
+	line-height: 6;
+}
+
+h1:after {
+	content: " NIEUW!";
+	color: red;
+}
+
+p:first-of-type {
+	border-bottom: 10px;
+}
+
+p:last-of-type {
+	font-style: italic;
+}
+
+p + p {
+	border-color: white;
+	border-style: dotted;
+	border-bottom-color: black;
+}
+
+p + p + p {
+	border-color: white;
+	border-style: dashed;
+	border-bottom-color: black;
+}
+
+p + p + p + p {
+	border-color: white;
+	border-style: double;
+	border-bottom-color: black;
+}
+
+p + p + p + p {
+	border-color: white;
+	border-style: groove;
+	border-bottom-color: black;
+}
+
+h2:nth-last-child(even) {
+	background-color: pink;
+}
+
+section p:last-of-type {
+	text-transform: uppercase;
+}
+
+section:nth-of-type(odd) {
+	text-transform: capitalize;
+}
+
+p:first-letter {
+	size: 22px;
+}
